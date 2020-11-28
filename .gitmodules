@@ -1,0 +1,16 @@
+[submodule "platform/crosvm"]
+	path = platform/crosvm
+	url = https://chromium.googlesource.com/chromiumos/platform/crosvm
+	branch = master
+[submodule "third_party/adhd"]
+	path = third_party/adhd
+	url = https://chromium.googlesource.com/chromiumos/third_party/adhd
+	branch = master
+[submodule "platform2"]
+	path = platform2
+	url = https://chromium.googlesource.com/chromiumos/platform2
+	branch = master
+[submodule "aosp/external/minijail"]
+	path = aosp/external/minijail
+	url = https://android.googlesource.com/platform/external/minijail/
+	branch = master
