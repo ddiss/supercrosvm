@@ -11,9 +11,10 @@ Install some dependencies:
 # sudo zypper ar --refresh https://download.opensuse.org/repositories/devel:/languages:/rust/openSUSE_Leap_15.2/ obs_rust
 # sudo zypper in -r obs_rust rust
 # cd supercrosvm/platform/crosvm
-# cargo build
+# cargo build --no-default-features
 ```
 The distribution rust compiler may be a little out of date, so the procedure above should install the latest from the build service.
+`--no-default-features` will provide a minimal build lacking many graphics and audio features.
 
 ### run
 
