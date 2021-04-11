@@ -14,3 +14,6 @@
 	path = aosp/external/minijail
 	url = https://android.googlesource.com/platform/external/minijail/
 	branch = master
+[submodule "third_party/rust-vmm/vhost"]
+	path = third_party/rust-vmm/vhost
+	url = https://chromium.googlesource.com/chromiumos/third_party/rust-vmm/vhost
